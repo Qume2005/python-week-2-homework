@@ -17,9 +17,14 @@ build-backend = "poetry.core.masonry.api"
 include = "main.py"
 from = "src"
 
+[[tool.poetry.packages]]
+include = "lib.py"
+from = "src"
+
 [tool.poetry.scripts]
-exercise1 = "main:exercise1"
-exercise2 = "main:exercise2"
-exercise3 = "main:exercise3"
-exercise4 = "main:exercise4"
-exercise5 = "main:exercise5"
+default = "main:main"
+exercise1 = "lib:Exercise1"
+exercise2 = "lib:Exercise2"
+exercise3 = "lib:Exercise3"
+exercise4 = "lib:Exercise4"
+exercise5 = "lib:Exercise5"

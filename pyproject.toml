@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "python-week-2-homework"
+version = "0.1.0"
+description = "python程序设计第二周学生作业"
+authors = ["Qume <qume2005@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.packages]]
+include = "main.py"
+from = "src"
+
+[tool.poetry.scripts]
+exercise1 = "main:exercise1"
+exercise2 = "main:exercise2"
+exercise3 = "main:exercise3"
+exercise4 = "main:exercise4"
+exercise5 = "main:exercise5"

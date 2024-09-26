@@ -21,24 +21,30 @@
 
 ### 克隆本仓库&更改目录
 
-```
+```bash
 git clone https://github.com/Qume2005/python-week-2-homework.git
 cd ./python-week-2-homework
 ```
 
 ### 首次需初始化依赖&虚拟环境
 
-```
+```bash
 poetry install
 ```
 
 ### 启动虚拟环境
 
-```
+```bash
 poetry shell
 ```
 
 ### 学生作业
+
+##### 顺序运行所有练习
+
+```bash
+poetry run default
+```
 
 #### 练习 1
 

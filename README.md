@@ -18,9 +18,8 @@
    pipx install poetry
    ```
 
-   
 
-克隆本仓库&更改目录
+### 克隆本仓库&更改目录
 
 ```
 git clone https://github.com/Qume2005/python-week-2-homework.git
@@ -29,25 +28,17 @@ cd ./python-week-2-homework
 
 ### 首次需初始化依赖&虚拟环境
 
-
-
 ```
 poetry install
 ```
 
 ### 启动虚拟环境
 
-
-
 ```
 poetry shell
 ```
 
-
-
 ### 学生作业
-
-
 
 #### 练习 1
 
@@ -57,15 +48,11 @@ poetry shell
 poetry run exercise1
 ```
 
-​	
-
 ##### 描述
 
 以下有多名学生的成绩信息，请计算总分、平均分与及格率，并将它们在交互窗口打印出来。
 
 5171768146 6758
-
-
 
 #### 练习 2
 
@@ -75,15 +62,11 @@ poetry run exercise1
 poetry run exercise2
 ```
 
-
-
 ##### 描述
 
 已知目前美元、英镑、欧元和澳元兑换人民币的汇率依次为7.00、8.55、7.78、4.24。
 
 假设有10000元人民币，请分别计算并打印兑换后的美元、英镑、欧元和澳元的金额，结果保留整数。
-
-
 
 #### 练习 3
 
@@ -93,13 +76,9 @@ poetry run exercise2
 poetry run exercise3
 ```
 
-
-
 ##### 描述
 
 请编写一个python程序，其中除import语句外只包含一行代码，运行后可以在 cos（365）和 sin（365）二者中选取数值较大的一个，输出到屏幕上。
-
-
 
 #### 练习 4
 
@@ -108,8 +87,6 @@ poetry run exercise3
 ```bash
 poetry run exercise4
 ```
-
-
 
 ##### 描述
 
@@ -121,8 +98,6 @@ a=1,b=-2，C=-8，方程的求根公式为：X=（-b士/b2-4ac） -2a
 
 提示：开方运算使用 math 模块的 sqrt 函数。
 
-
-
 #### 练习 5
 
 ##### 运行
@@ -130,8 +105,6 @@ a=1,b=-2，C=-8，方程的求根公式为：X=（-b士/b2-4ac） -2a
 ```bash
 poetry run exercise5
 ```
-
-
 
 ##### 描述
 
